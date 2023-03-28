@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(70, 85, 63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  height: 48rem;
+  width: 55rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.card__navbar {
+  background-color: rgb(239, 235, 199);
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 1.2rem;
+  display: flex;
+  color: rgb(91, 115, 79);
+}
+
+.card__navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card__selected {
+  background-color: rgb(249, 240, 228);
+  height: 70%;
+  display: flex;
+}
+
+.card__selected-logo {
+  height: 2rem;
+  opacity: 85%;
+}
+
+.card__selected-image {
+  width: 100%;
+  transform: scaleX(-1);
+}
+
+* {
+  box-sizing: border-box;
+}
